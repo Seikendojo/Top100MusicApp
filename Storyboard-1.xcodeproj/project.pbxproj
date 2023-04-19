@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D81C742929CEC139006C74BE /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C742829CEC139006C74BE /* UIButton+Extensions.swift */; };
+		D82B9E9029CE96F5005925EA /* AlbumDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B9E8F29CE96F5005925EA /* AlbumDetailsViewController.swift */; };
+		D82B9E9529CE99FA005925EA /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B9E9429CE99FA005925EA /* UIView+Extensions.swift */; };
 		D8FC29FB29C8F5BC00AA2DB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC29FA29C8F5BC00AA2DB3 /* AppDelegate.swift */; };
 		D8FC29FD29C8F5BC00AA2DB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC29FC29C8F5BC00AA2DB3 /* SceneDelegate.swift */; };
-		D8FC29FF29C8F5BC00AA2DB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC29FE29C8F5BC00AA2DB3 /* ViewController.swift */; };
+		D8FC29FF29C8F5BC00AA2DB3 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC29FE29C8F5BC00AA2DB3 /* AlbumsViewController.swift */; };
 		D8FC2A0229C8F5BC00AA2DB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FC2A0029C8F5BC00AA2DB3 /* Main.storyboard */; };
 		D8FC2A0429C8F5BE00AA2DB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8FC2A0329C8F5BE00AA2DB3 /* Assets.xcassets */; };
 		D8FC2A0729C8F5BE00AA2DB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FC2A0529C8F5BE00AA2DB3 /* LaunchScreen.storyboard */; };
 		D8FC2A1229C8F5BE00AA2DB3 /* Storyboard_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC2A1129C8F5BE00AA2DB3 /* Storyboard_1Tests.swift */; };
 		D8FC2A1C29C8F5BE00AA2DB3 /* Storyboard_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC2A1B29C8F5BE00AA2DB3 /* Storyboard_1UITests.swift */; };
 		D8FC2A1E29C8F5BE00AA2DB3 /* Storyboard_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC2A1D29C8F5BE00AA2DB3 /* Storyboard_1UITestsLaunchTests.swift */; };
+		D8FC2A2B29C9035700AA2DB3 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC2A2A29C9035700AA2DB3 /* AlbumCell.swift */; };
+		D8FC2A2D29CA106600AA2DB3 /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC2A2C29CA106600AA2DB3 /* Root.swift */; };
+		D8FC2A3029CA120E00AA2DB3 /* AlbumsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC2A2F29CA120E00AA2DB3 /* AlbumsFeed.swift */; };
+		D8FC2A3229CA144100AA2DB3 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC2A3129CA144100AA2DB3 /* Author.swift */; };
+		D8FC2A3429CA150000AA2DB3 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC2A3329CA150000AA2DB3 /* Album.swift */; };
+		D8FC2A3629CA188100AA2DB3 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC2A3529CA188100AA2DB3 /* Genre.swift */; };
+		D8FC2A3829CA20DF00AA2DB3 /* UIImageView+Extensoions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC2A3729CA20DF00AA2DB3 /* UIImageView+Extensoions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D81C742829CEC139006C74BE /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		D82B9E8F29CE96F5005925EA /* AlbumDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewController.swift; sourceTree = "<group>"; };
+		D82B9E9429CE99FA005925EA /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		D8FC29F729C8F5BC00AA2DB3 /* Storyboard-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storyboard-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FC29FA29C8F5BC00AA2DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8FC29FC29C8F5BC00AA2DB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D8FC29FE29C8F5BC00AA2DB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8FC29FE29C8F5BC00AA2DB3 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		D8FC2A0129C8F5BC00AA2DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8FC2A0329C8F5BE00AA2DB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8FC2A0629C8F5BE00AA2DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,13 @@
 		D8FC2A1729C8F5BE00AA2DB3 /* Storyboard-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Storyboard-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FC2A1B29C8F5BE00AA2DB3 /* Storyboard_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard_1UITests.swift; sourceTree = "<group>"; };
 		D8FC2A1D29C8F5BE00AA2DB3 /* Storyboard_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8FC2A2A29C9035700AA2DB3 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		D8FC2A2C29CA106600AA2DB3 /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
+		D8FC2A2F29CA120E00AA2DB3 /* AlbumsFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsFeed.swift; sourceTree = "<group>"; };
+		D8FC2A3129CA144100AA2DB3 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		D8FC2A3329CA150000AA2DB3 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		D8FC2A3529CA188100AA2DB3 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		D8FC2A3729CA20DF00AA2DB3 /* UIImageView+Extensoions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensoions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +121,10 @@
 			children = (
 				D8FC29FA29C8F5BC00AA2DB3 /* AppDelegate.swift */,
 				D8FC29FC29C8F5BC00AA2DB3 /* SceneDelegate.swift */,
-				D8FC29FE29C8F5BC00AA2DB3 /* ViewController.swift */,
+				D8FC2A3929CA247900AA2DB3 /* Extensions */,
+				D8FC2A3F29CA2E7200AA2DB3 /* ViewControllers */,
+				D8FC2A4029CA2E7F00AA2DB3 /* Views */,
+				D8FC2A2E29CA107000AA2DB3 /* Models */,
 				D8FC2A0029C8F5BC00AA2DB3 /* Main.storyboard */,
 				D8FC2A0329C8F5BE00AA2DB3 /* Assets.xcassets */,
 				D8FC2A0529C8F5BE00AA2DB3 /* LaunchScreen.storyboard */,
@@ -125,6 +148,45 @@
 				D8FC2A1D29C8F5BE00AA2DB3 /* Storyboard_1UITestsLaunchTests.swift */,
 			);
 			path = "Storyboard-1UITests";
+			sourceTree = "<group>";
+		};
+		D8FC2A2E29CA107000AA2DB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D8FC2A3529CA188100AA2DB3 /* Genre.swift */,
+				D8FC2A3329CA150000AA2DB3 /* Album.swift */,
+				D8FC2A3129CA144100AA2DB3 /* Author.swift */,
+				D8FC2A2F29CA120E00AA2DB3 /* AlbumsFeed.swift */,
+				D8FC2A2C29CA106600AA2DB3 /* Root.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D8FC2A3929CA247900AA2DB3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D8FC2A3729CA20DF00AA2DB3 /* UIImageView+Extensoions.swift */,
+				D82B9E9429CE99FA005925EA /* UIView+Extensions.swift */,
+				D81C742829CEC139006C74BE /* UIButton+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D8FC2A3F29CA2E7200AA2DB3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8FC29FE29C8F5BC00AA2DB3 /* AlbumsViewController.swift */,
+				D82B9E8F29CE96F5005925EA /* AlbumDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D8FC2A4029CA2E7F00AA2DB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8FC2A2A29C9035700AA2DB3 /* AlbumCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +320,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8FC29FF29C8F5BC00AA2DB3 /* ViewController.swift in Sources */,
+				D8FC2A3629CA188100AA2DB3 /* Genre.swift in Sources */,
+				D8FC29FF29C8F5BC00AA2DB3 /* AlbumsViewController.swift in Sources */,
 				D8FC29FB29C8F5BC00AA2DB3 /* AppDelegate.swift in Sources */,
 				D8FC29FD29C8F5BC00AA2DB3 /* SceneDelegate.swift in Sources */,
+				D8FC2A2B29C9035700AA2DB3 /* AlbumCell.swift in Sources */,
+				D8FC2A2D29CA106600AA2DB3 /* Root.swift in Sources */,
+				D82B9E9529CE99FA005925EA /* UIView+Extensions.swift in Sources */,
+				D8FC2A3829CA20DF00AA2DB3 /* UIImageView+Extensoions.swift in Sources */,
+				D8FC2A3229CA144100AA2DB3 /* Author.swift in Sources */,
+				D8FC2A3029CA120E00AA2DB3 /* AlbumsFeed.swift in Sources */,
+				D8FC2A3429CA150000AA2DB3 /* Album.swift in Sources */,
+				D82B9E9029CE96F5005925EA /* AlbumDetailsViewController.swift in Sources */,
+				D81C742929CEC139006C74BE /* UIButton+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
